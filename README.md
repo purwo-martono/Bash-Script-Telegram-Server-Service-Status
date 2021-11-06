@@ -1,9 +1,9 @@
-# Bash-Script-Telegram-Server-Service-Status
+# Bash script to send active services on server to [Telegram](https://web.telegram.org/)
 
 ## Modification of telegram-send from [Konstantin Bogomolov](https://bogomolov.tech/Telegram-notification-on-SSH-login/)
 ##### Don't forget to create [telegram-send](https://github.com/purwo-martono/telegram-send) file first
-##### This bash script will check ufw, ssh, apache2, php, postgresql, and samba services, after that it will send message to telegram whether the status active or not
 
+##### This bash script will check ufw, ssh, apache2, php, postgresql, and samba services, after that it will send message to telegram whether the status active or not
 ```
 #!/bin/bash
 
