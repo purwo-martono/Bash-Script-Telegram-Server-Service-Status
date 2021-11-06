@@ -21,5 +21,5 @@ message=$(for (( i=0; i<$len; i++ ));
         echo "${listService[$i]} $status";
       done
       )
-telegram-send "SERVICE OF YOUR SERVER $ipAddress"$'\n'"$message"
+telegram-send "SERVICE OF YOUR_SERVER $ipAddress"$'\n'"$message"
 ```
